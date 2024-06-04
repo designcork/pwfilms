@@ -220,6 +220,7 @@ nav ul {
     height: 100%; 
     font-family: var(--primary-font), sans-serif;
     list-style-type: none;
+    margin-top: 0;
 }
 
 nav ul li {
@@ -405,6 +406,13 @@ nav ul li a:hover {
     text-align: center;
     font-weight: 600;
     font-size: .8em;
+}
+
+.copyright a {text-decoration: underline;}
+
+.copyright a:hover {
+   text-decoration-style: wavy !important;
+   transition: all ease-in-out 2s;
 }
 
 .gradient-T-B {
