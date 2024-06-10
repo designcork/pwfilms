@@ -23,10 +23,10 @@
 </head>
 
 <body> 
-    <header class="sticky heroFadeUp black">
+    <header class="sticky heroFadeUp">
         <div>
             <a href="index.html">
-                <div class="logo-box black"><h1>Paul Webster <span>Films</span></div>
+                <div class="logo-box"></div>
             </a>
         </div>
         <nav>
@@ -49,19 +49,19 @@
                     <img src="images/Paul_Webster_Films_Multicam.webp" alt="Paul Webster" width="300" height="400" loading="lazy">
                     <img src="images/Paul_Webster_Films_about.webp" alt="Paul Webster" width="300" height="400" loading="lazy">
             </div>
-            <div class="container-short heroFade">
-                <h1 class="heroFadeUp" style="text-align: right;">About</h1>
-                <p>I'm an Irish filmmaker driven to make entertaining, fun and touching films about real people that connect with audiences in a meaningful way.
-                <p>To date, I've made successful shorts and TV projects that explore a rich variety of subjects from sports and music to nature and politics. My short, <i>The Vasectomy Doctor</i> was nominated for an Irish Film Academy Award and won 20 awards around Ireland and abroad.</p>
-                <p>I recently finished a feature documentary on the housing crisis in Ireland.</p>
-                <p>My latest short film <i>Canine</i> won the Audience Award for Best Short Film at the Cork International Film Festival and was selected for Tribeca Film Festival 2024. I'm developing this project into a feature film as well as several exciting documentary projects.</p>
-                <p>I'm also a regular writer on the popular Irish soap Fair City and am developing a number of exciting drama projects.</p>
+            <div class="container-short heroFade" id="about">
+                <h1 class="heroFadeUp">About</h1>
+                <p>I'm an Irish filmmaker driven to make entertaining, fun and touching films about real people that connect with audiences in a meaningful way.</p>
+                <p>To date, I've made successful shorts and TV projects that explore a rich variety of subjects from sports and music to nature and politics. My short, <i>The Vasectomy Doctor</i> was nominated for an Irish Film Academy Award and screened at festivals all over the world, picking up 20 awards along the way.</p>
+                <p>In 2023 I finished a feature documentary examining the history housing crises in Ireland. It was described in the Irish Independent as <i>‘Brisk and Absorbing… There was so much in writer/director Paul Webster’s excellent film that it could easily have been expanded into a six-part series.’</i></p>
+                <p>My latest short film <i>Canine</i> won the Audience Award for Best Short Film at the Cork International Film Festival and was selected for Tribeca Film Festival 2024. I'm developing this project into a feature film as well as several new and ambitious documentary projects.</p>
+                <p>I'm also a regular writer on the popular Irish soap <i>Fair City</i> and am developing a number of exciting drama projects.</p>
 
                 <a class="image-link" id="sdgi" href="https://sdgi.ie/directors/paul-webster/" title="Screen Directors Guild of Ireland">
-                    <svg width="50" height="60" viewBox="0 0 123 60" xmlns="http://www.w3.org/2000/svg">
+                    <svg width="50" height="60" viewBox="0 0 123 60" xmlns="http://www.w3.org/2000/svg" fill="var(--primary-colour)">
                     <path d="M122.359 90.573V62.461H94.247a28.103 28.103 0 0 0 28.112 28.112ZM57.792.717V56.94a28.112 28.112 0 1 0 0-56.224ZM.092 48.726A28.093 28.093 0 0 0 39.82 8.996L.09 48.727ZM122.359.717a28.111 28.111 0 1 0 0 56.224V.717Z"></path></svg>
 
-                    <svg width="80" height="40" viewBox="0 0 112 64" xmlns="http://www.w3.org/2000/svg">
+                    <svg width="80" height="40" viewBox="0 0 112 64" xmlns="http://www.w3.org/2000/svg" fill="var(--primary-colour)">
                     <path d="M1.67061 7.47981C2.30996 8.16961 3.08999 8.71406 3.95794 9.07635C4.82589 9.43863 5.76153 9.61029 6.70156 9.57972C8.46903 9.57972 9.71031 9.10379 9.71031 8.27626C9.71031 7.31957 8.77157 7.24066 5.71499 6.90581C2.99202 6.60443 0.795249 6.04708 0.795249 3.75352C0.795249 1.47661 2.97647 0.0296333 6.28778 0.0296333C7.37141 -0.0341511 8.4568 0.120336 9.4796 0.483932C10.5024 0.847527 11.4417 1.41283 12.2419 2.1463L10.5701 3.91377C9.98477 3.33989 9.28589 2.89471 8.51836 2.60681C7.75082 2.31891 6.93157 2.19463 6.11319 2.24196C4.31344 2.24196 3.40693 2.78248 3.40693 3.46651C3.40693 4.2151 4.20217 4.37535 7.0196 4.69351C10.0129 5.02826 12.4644 5.48989 12.4644 7.98922C12.4644 10.5507 9.94949 11.8088 6.59035 11.8088C5.38683 11.8702 4.18325 11.689 3.05112 11.2761C1.91899 10.8632 0.8814 10.2269 0 9.4051L1.67061 7.47981Z"></path>
                     <path d="M19.9145 0.0296835C21.1918 -0.0859656 22.4731 0.204008 23.5762 0.858376C24.6793 1.51274 25.548 2.4982 26.0588 3.67464L23.703 4.80353C23.4233 4.03793 22.9029 3.38369 22.2198 2.93907C21.5367 2.49444 20.7278 2.28341 19.9145 2.33767C19.408 2.28594 18.8962 2.33928 18.4112 2.49438C17.9262 2.64948 17.4785 2.90299 17.0959 3.23905C16.7134 3.57511 16.4043 3.9865 16.1881 4.44747C15.9718 4.90844 15.853 5.40908 15.839 5.91807C15.8527 6.42724 15.9713 6.92812 16.1875 7.38934C16.4036 7.85057 16.7126 8.26221 17.0952 8.59852C17.4777 8.93482 17.9256 9.18855 18.4107 9.34381C18.8958 9.49907 19.4078 9.55253 19.9145 9.50084C20.7281 9.55512 21.5373 9.34383 22.2205 8.89872C22.9037 8.45362 23.4239 7.79876 23.703 7.03261L26.0588 8.16387C25.548 9.34031 24.6793 10.3258 23.5762 10.9801C22.4731 11.6345 21.1918 11.9245 19.9145 11.8088C19.0777 11.8911 18.233 11.8018 17.4319 11.5464C16.6308 11.291 15.8902 10.8749 15.2554 10.3235C14.6207 9.77209 14.105 9.09702 13.7401 8.33955C13.3751 7.58208 13.1685 6.75812 13.1328 5.91807C13.1687 5.0782 13.3756 4.25448 13.7407 3.49727C14.1057 2.74006 14.6214 2.06525 15.2562 1.51411C15.8909 0.962972 16.6314 0.547074 17.4324 0.291842C18.2333 0.03661 19.0779 -0.0525939 19.9145 0.0296835Z"></path>
                     <path d="M29.7053 11.6345H27.0469V0.20459H34.3224C36.9808 0.20459 38.7638 1.49372 38.7638 3.8807C38.7881 4.65995 38.5456 5.42414 38.0766 6.0469C37.6076 6.66966 36.94 7.11369 36.1844 7.30555L39.0341 11.6345H35.9931L33.3992 7.57581H29.7053V11.6345ZM34.1789 5.40891C35.437 5.40891 36.1533 4.85164 36.1533 3.92845C36.1533 2.99089 35.437 2.44797 34.1789 2.44797H29.7053V5.40894L34.1789 5.40891Z"></path>
@@ -108,7 +108,9 @@
 
     <div class="footer">
         <div class="footer-container container">
-            <div class="fadeUp"><h3>Paul Webster <span>Films</span></h3></div> 
+            <a class="copyright scroll-reveal fadeUp" href="/index.html">
+                <div class="logo-box logo-footer"></div>
+             </a>
             <div class="copyright scroll-reveal fadeUp">
                 <p>© 2024</p>
             </div>

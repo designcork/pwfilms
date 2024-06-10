@@ -22,10 +22,10 @@
 </head>
 
 <body> 
-    <header class="sticky heroFadeUp black">
+    <header class="sticky heroFadeUp">
         <div>
             <a href="index.html">
-                <div class="logo-box black"><h1>Paul Webster <span>Films</span></h1></div>
+                <div class="logo-box"></div>
             </a>
         </div>
         <nav>
@@ -43,7 +43,7 @@
 
     <div class="container block-half" id="showcase">
         <h1 class="heroFadeUp pageTitle" style="text-align: right;">Filmography</h1>
-        <div class="popup-gallery">
+        <div class="popup-gallery two">
 
             <div class="portfolio-item heroFadeUp">
                 <div class="item-wrap">                                                           
@@ -74,6 +74,24 @@
                     <div class="overlay">
                         <div class="portfolio-item-meta">
                             <p>70 minute documentary film directed by Paul Webster.</p>
+                        </div>
+                    </div>
+                </a>
+    
+                </div>
+                </div> <!-- item end -->
+            <div class="portfolio-item heroFadeUp">
+                <div class="item-wrap">
+    
+                <a href="#housing-2" title="">
+                    <img src="images/films_housing_promo.webp" alt="A History of Irish Housing in 4 minutes | 2023" loading="lazy">
+                    <div class="overlay-lower">
+                        <div class="portfolio-item-meta"><h3>A History of Irish Housing in 4 minutes (2023)</h3></div>
+                    </div>
+                    <div class="icon-plus"></div>
+                    <div class="overlay">
+                        <div class="portfolio-item-meta">
+                            <p>Promo video for 70 minute documentary.</p>
                         </div>
                     </div>
                 </a>
@@ -156,6 +174,18 @@
                 </div>        
             </div><!-- modal-housing End -->
 
+            
+
+            <div id="housing-2" class="popup-modal mfp-hide">
+                <div class="iframe-container">
+                    <iframe class="responsive-iframe" loading="lazy" width="560" height="315" src="https://player.vimeo.com/video/874202520" title="video player" frameborder="0" allowfullscreen></iframe> 
+                </div>      
+                <div class="description-box">
+                        <h3>A History of Irish Housing in 4 minutes | 2023</h3>
+                        <p>Promotional video for 70 minute documentary film directed by Paul Webster exploring 100 Years of Housing in Ireland.</p>
+                    </div>        
+                </div><!-- modal-housing End -->
+
             <div id="cuan" class="popup-modal mfp-hide">
                 <div class="iframe-container">
                     <iframe class="responsive-iframe" loading="lazy" width="560" height="315" src="https://player.vimeo.com/video/780711991?h=f2ab2872e1" title="video player" frameborder="0" allowfullscreen></iframe> 
@@ -198,7 +228,9 @@
 
     <div class="footer">
         <div class="footer-container container">
-            <div class="fadeUp"><h3>Paul Webster <span>Films</span></h3></div> 
+            <a class="copyright scroll-reveal fadeUp" href="/index.html">
+                <div class="logo-box logo-footer"></div>
+             </a>
             <div class="copyright scroll-reveal fadeUp">
                 <p>© 2024</p>
             </div>
