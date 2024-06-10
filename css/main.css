@@ -256,7 +256,7 @@ nav ul li a:hover {
 }
 
 .logo-box::before {
-    content: url(/images/paul-webster-wordmark-white.svg);
+    content: url(images/paul-webster-wordmark-white.svg);
     display: block;
     width: 200px;
     cursor: pointer;
@@ -275,7 +275,7 @@ a > .logo-box:hover {
 }
 
 .logo-footer.logo-box::before {
-    content: url(/images/paul-webster-wordmark-black.svg);
+    content: url(images/paul-webster-wordmark-black.svg);
     width: 160px;
     padding: 0;
     margin: 1em 0 1em 0;
