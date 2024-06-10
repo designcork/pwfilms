@@ -270,12 +270,12 @@ img {
     -moz-transition: opacity 0.3s ease-in-out;
     -o-transition: opacity 0.3s ease-in-out;
     transition: opacity 0.3s ease-in-out;
-    background: linear-gradient(0deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0) 40%);
+    background: linear-gradient(0deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0) 60%);
 
 }
  .portfolio-item .item-wrap .link-icon {
     display: block;
-    color: #fff;
+    color: var(--black-colour);
     height: 30px;
     width: 30px;
     text-align: center;
@@ -376,7 +376,10 @@ img {
 
  }
 
- .popup-modal .description-box { padding: 12px 36px 18px 36px; }
+ .popup-modal .description-box {
+   padding: 12px 36px 18px 36px; 
+color: var(--black-colour);}
+
  .popup-modal .description-box h3 {
     font-weight: 600;
    font-size: 1.4rem;
